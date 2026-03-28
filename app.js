@@ -39,6 +39,7 @@
         vite: '#646CFF',
         tailwind: '#06B6D4',
         supabase: '#3ECF8E',
+        ffmpeg: '#007808',
         opencv: '#5C3EE8',
         ai: '#FF6B6B',
         jupyter: '#F37626',

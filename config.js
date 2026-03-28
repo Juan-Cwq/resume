@@ -33,10 +33,10 @@ const CONFIG = {
         { name: "Vite", icon: "vite" },
         { name: "TailwindCSS", icon: "tailwind" },
         { name: "Supabase", icon: "supabase" },
+        { name: "FFmpeg", icon: "ffmpeg" },
         { name: "OpenCV", icon: "opencv" },
         { name: "Stable Diffusion", icon: "ai" },
         { name: "Git", icon: "git" },
-        { name: "Jupyter", icon: "jupyter" },
         { name: "Web APIs", icon: "api" }
     ],
 
@@ -49,16 +49,25 @@ const CONFIG = {
             description: "Security-first authentication system for an E2EE messaging platform. Features multi-layered architecture with a Privacy Proxy, Browser Extension, and real-time encrypted messaging.",
             tech: ["React 18", "Vite", "Supabase", "TailwindCSS"],
             githubUrl: "https://github.com/jcors09/haven",
-            demoUrl: null,
+            demoUrl: "https://gleeful-souffle-ab1c71.netlify.app",
             stars: 0,
             forks: 0
         },
         {
-            name: "AI Text-to-Image Generator",
-            description: "Web application leveraging AI models to generate high-quality images from natural language prompts. Features real-time adjustments and seamless image downloads.",
-            tech: ["JavaScript", "Stable Diffusion", "Web APIs"],
-            githubUrl: "https://github.com/jcors09/text-to-image",
-            demoUrl: null,
+            name: "Convert To It!",
+            description: "High-performance web-based file converter supporting multiple formats (PNG/JPG/WebP, PDF/DOCX, MP3/WAV). Features client-side processing with FFmpeg.wasm for maximum privacy, drag-and-drop interface, batch processing, and custom compression reducing file sizes up to 70%.",
+            tech: ["React", "TailwindCSS", "FFmpeg.wasm", "Web Workers"],
+            githubUrl: "https://github.com/jcors09/file-converter",
+            demoUrl: "https://celebrated-chaja-7a3909.netlify.app/convert",
+            stars: 0,
+            forks: 0
+        },
+        {
+            name: "Cadenza",
+            description: "TypeScript wrapper for the Suno AI API enabling automated generation of AI-composed music tracks for multimedia projects.",
+            tech: ["TypeScript", "Suno API", "Node.js"],
+            githubUrl: "https://github.com/jcors09/suno-music",
+            demoUrl: "https://ccadenza.netlify.app",
             stars: 0,
             forks: 0
         },
@@ -67,15 +76,15 @@ const CONFIG = {
             description: "Productivity tool for securing digital documents by applying custom watermarks to electronic signatures while maintaining legibility.",
             tech: ["JavaScript", "Image Processing", "Canvas API"],
             githubUrl: "https://github.com/jcors09/esign-watermark",
-            demoUrl: null,
+            demoUrl: "https://majestic-brigadeiros-d1e9ae.netlify.app",
             stars: 0,
             forks: 0
         },
         {
-            name: "Suno Music Generator",
-            description: "TypeScript wrapper for the Suno AI API enabling automated generation of AI-composed music tracks for multimedia projects.",
-            tech: ["TypeScript", "Suno API", "Node.js"],
-            githubUrl: "https://github.com/jcors09/suno-music",
+            name: "AI Text-to-Image Generator",
+            description: "Web application leveraging AI models to generate high-quality images from natural language prompts. Features real-time adjustments and seamless image downloads.",
+            tech: ["JavaScript", "Stable Diffusion", "Web APIs"],
+            githubUrl: "https://github.com/jcors09/text-to-image",
             demoUrl: null,
             stars: 0,
             forks: 0
