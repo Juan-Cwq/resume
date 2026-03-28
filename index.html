@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="grid-bg"></div>
+    
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">&lt;/&gt;</a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-avatar-wrapper">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar" id="avatar">
+                        <span class="avatar-placeholder">JD</span>
+                    </div>
+                    <div class="status-indicator"></div>
+                </div>
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="terminal-prompt">~$</span>
+                        <span class="typing-text" id="greeting"></span>
+                        <span class="cursor-blink">_</span>
+                    </div>
+                    <h1 class="hero-name" id="hero-name"></h1>
+                    <p class="hero-title" id="hero-title"></p>
+                    <p class="hero-bio" id="hero-bio"></p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-icon">→</span>
+                            View Projects
+                        </a>
+                        <a href="#" class="btn btn-secondary" id="resume-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Resume PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-header">
+                <span class="section-tag">01</span>
+                <h2>Tech Stack</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid" id="skills-grid"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-header">
+                <span class="section-tag">02</span>
+                <h2>Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid" id="projects-grid"></div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="section-header">
+                <span class="section-tag">03</span>
+                <h2>Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline" id="timeline"></div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education" id="education">
+            <div class="section-header">
+                <span class="section-tag">04</span>
+                <h2>Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid" id="education-grid"></div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-cta">
+                <h3>Let's build something together</h3>
+                <p id="footer-tagline"></p>
+            </div>
+            <div class="social-links" id="social-links"></div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    <span class="terminal-prompt">~$</span> 
+                    Built with <span class="accent">&lt;code/&gt;</span> & 
+                    <span class="accent">☕</span>
+                </p>
+                <p class="year" id="current-year"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
